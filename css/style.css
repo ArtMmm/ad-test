@@ -337,10 +337,21 @@ html, body {
   .fullscreen__header-address p {
     font-size: 14px;
   }
+  .fullscreen__content-img {
+    height: 90%;
+  }
+  .fullscreen__content-img-spivak {
+    height: 333px;
+  }
   .fullscreen__content-text {
     position: relative;
-    top: -80px;
-    text-align: center;
+    top: -40px;
+  }
+  .fullscreen__content-text-title {
+    font-size: 30px;
+  }
+  .fullscreen__content-text-description {
+    max-width: 360px;
   }
   .fullscreen__content-link {
     left: 10%;

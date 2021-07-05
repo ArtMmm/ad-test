@@ -381,6 +381,9 @@
   .header__img-spivak img {
     top: -12px;
   }
+  .header__img-bottom {
+    top: 150px;
+}
   .header__row {
     -webkit-box-pack: start;
         -ms-flex-pack: start;

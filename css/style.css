@@ -393,9 +393,13 @@
     font-size: 14px;
   }
 }
+@media (max-width: 414px) {
+  .header__img-spivak img {
+    top: -13px;
+  }
 
 @media (max-width: 380px) {
   .header__img-spivak img {
-    top: 13px;
+    top: -3px;
   }
 }

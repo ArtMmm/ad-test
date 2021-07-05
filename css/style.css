@@ -378,7 +378,7 @@
   }
  
   .header__img-spivak img {
-    top: 7px;
+    top: 20px;
   }
   .header__row {
     -webkit-box-pack: start;
@@ -393,8 +393,4 @@
   }
 }
 
-@media (max-width: 380px) {
-  .header__img-spivak img {
-    top: -11px;
-  }
-}
+

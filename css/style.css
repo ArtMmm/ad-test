@@ -366,6 +366,12 @@
 }
 
 @media (max-width: 480px) {
+  .header__img-fonline {
+    display: none;
+  }
+  .header__offer {
+    padding: 15px 0px;
+  }
   .header__img-spivak img {
     top: 7px;
   }

@@ -350,8 +350,8 @@
   }
   .header__offer {
     width: 100%;
-    padding-top: 30px;
-    height: 265px;
+    padding: 30px 0px;
+    height: 330px;
   }
   .header__offer-text {
     margin: auto;

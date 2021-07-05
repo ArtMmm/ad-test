@@ -55,6 +55,9 @@
 
 .header__img-spivak img {
   height: 920px;
+  left: -230px;
+  height: 920px;
+  position: relative;
 }
 
 .header__img-spivak .advokat {
@@ -335,10 +338,11 @@
             justify-content: start;
   }
   .header__img-spivak {
-    left: -150px;
+    left: 0px;
     position: static;
   }
   .header__img-spivak img {
+    left: -80px;
     z-index: 4;
     position: relative;
     height: 450px;
@@ -366,12 +370,6 @@
 }
 
 @media (max-width: 480px) {
-  .header__offer-text-title {
-    font-size: 29px;
-  }
-  .header {
-    padding-bottom: 20px;
-  }
   .header__img-fonline {
     display: none;
   }
@@ -379,30 +377,23 @@
     padding: 15px 0px;
   }
   .header__img-spivak img {
-    top: -12px;
+    top: 7px;
   }
-  .header__img-bottom {
-    top: 150px;
-}
   .header__row {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
   }
   .header__row-phone a {
-    font-size: 14px;
+    font-size: 16px;
   }
   .header__row-addres p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
-@media (max-width: 414px) {
-  .header__img-spivak img {
-    top: 13px;
-  }
 
 @media (max-width: 380px) {
   .header__img-spivak img {
-    top: -3px;
+    top: -11px;
   }
 }

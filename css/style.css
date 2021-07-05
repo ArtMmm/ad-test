@@ -366,6 +366,9 @@
 }
 
 @media (max-width: 480px) {
+  .header {
+    padding-bottom: 20px;
+  }
   .header__img-fonline {
     display: none;
   }

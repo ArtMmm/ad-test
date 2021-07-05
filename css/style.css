@@ -370,6 +370,9 @@
 }
 
 @media (max-width: 480px) {
+  .header__offer-text-title {
+    font-size: 30px;
+  }
   .header__img-fonline {
     display: none;
   }

@@ -379,7 +379,7 @@
     padding: 15px 0px;
   }
   .header__img-spivak img {
-    top: 12px;
+    top: -12px;
   }
   .header__row {
     -webkit-box-pack: start;

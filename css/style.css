@@ -366,6 +366,9 @@
 }
 
 @media (max-width: 480px) {
+  .header__offer-text-title {
+    font-size: 32px;
+  }
   .header {
     padding-bottom: 20px;
   }

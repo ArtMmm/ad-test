@@ -381,7 +381,7 @@
             justify-content: start;
   }
   .header__row-phone a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .header__row-addres p {
     font-size: 16px;
@@ -390,6 +390,6 @@
 
 @media (max-width: 380px) {
   .header__img-spivak img {
-    top: -11px;
+    top: 13px;
   }
 }

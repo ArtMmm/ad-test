@@ -370,9 +370,7 @@
 }
 
 @media (max-width: 480px) {
-  .header { 
-    overflow: hidden;
-  }
+  
   .header__offer-text-title {
     font-size: 30px;
   }

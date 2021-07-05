@@ -377,9 +377,10 @@
     display: none;
   }
  
-  .header__img-spivak img {
+ .header__img-spivak img {
+    width: 110%;
     top: 20px;
-  }
+}
   .header__row {
     -webkit-box-pack: start;
         -ms-flex-pack: start;

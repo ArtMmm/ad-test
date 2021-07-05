@@ -375,6 +375,7 @@
   }
   .header__offer {
     padding: 15px 0px;
+    margin: 20px 0px;
   }
   .header__img-spivak img {
     top: 7px;
@@ -388,7 +389,7 @@
     font-size: 16px;
   }
   .header__row-addres p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 

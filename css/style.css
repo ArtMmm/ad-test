@@ -41,6 +41,10 @@ html, body {
   padding: 0px;
 }
 
+.fullscreen__top {
+  position: absolute;
+}
+
 .fullscreen__body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -130,11 +134,13 @@ html, body {
 .fullscreen__content-img-spivak {
   max-height: 864px;
   position: relative;
-  left: -280px;
+  left: -80px;
 }
 
 .fullscreen__content-img-advokat {
   max-height: 750px;
+  left: 190px;
+  position: relative;
 }
 
 .fullscreen__content-text {
@@ -225,6 +231,9 @@ html, body {
 }
 
 @media (max-width: 1440px) {
+  .fullscreen__top {
+    display: none;
+  }
   .fullscreen__content-img-advokat {
     display: none;
   }
@@ -264,27 +273,23 @@ html, body {
 
 @media (max-width: 1080px) {
   .fullscreen__content {
-    width: 384px;
+    width: 90%;
     height: 100vh;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .fullscreen__content-img {
     width: 384px;
-    height: 50%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .fullscreen__content-img-spivak {
     left: 0px;
-    height: 414px;
   }
   .fullscreen__content-text {
     min-height: 50%;
@@ -301,6 +306,23 @@ html, body {
   }
   .fullscreen__content-text-link a {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 860px) {
+  .fullscreen__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fullscreen__content-img {
+    margin-top: 30px;
+  }
+  .fullscreen__content-text {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
 }
 
@@ -339,14 +361,7 @@ html, body {
   }
   .fullscreen__content-img {
     height: 90%;
-  }
-  .fullscreen__content-img-spivak {
-    height: 333px;
-    left: -60px
-  }
-  .fullscreen__content-text {
-    position: relative;
-    top: -60px;
+    margin-top: 0;
   }
   .fullscreen__content-text-title {
     font-size: 30px;
